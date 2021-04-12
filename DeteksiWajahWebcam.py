@@ -18,7 +18,7 @@ while True:
         for (xe, ye, we, he) in eyes:
             cv2.rectangle(roiWarna, (xe, ye), (xe + we, ye + he), (0, 0, 255),
                           1)
-    cv2.imshow('Webcameku', frame)
+    cv2.imshow('Webcamku', frame)
     #cv2.imshow('Webcameku 2 ', abuAbu)
     k = cv2.waitKey(1) & 0xFF
     if k == ord('q') or k == 27:
